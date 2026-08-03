@@ -9,7 +9,7 @@
 
 // Backend //
 
-        Partie utilitaire de l'application
+        Partie utilitaire/serveur de l'application
         Elle contient la logique métier, les traitements et l'accès à la base de données
                - Spring Boot
 
@@ -32,7 +32,7 @@
 // ORM (Object Relational Mapping) //
 
         Technique permettant de manipuler une base de données avec des objets Java au lieu d'écrire directement du SQL
-               - Hibernate, JPA
+               - Hibernate
 
 *****
 
@@ -53,7 +53,8 @@
 
 // Entity //
 
-        Classe Java représentant une table de la base de données
+        Classe Java persistante généralement associée à une table de la base de données
+        Chaque objet de cette classe représente généralement une ligne de la table
 
 *****
 
@@ -79,13 +80,15 @@
 
 // REST API //
 
-        API utilisant le protocole HTTP
+       API respectant les principes de l'architecture REST et utilisant généralement le protocole HTTP
+       Elle manipule des ressources à travers des endpoints
 
 *****
 
 // JWT (JSON Web Token) //
 
         Jeton d'authentification permettant d'identifier un utilisateur sans stocker de session côté serveur
+        Il est souvent utilisé pour transmettre l'identité et les droits d'un utilisateur entre le client et le serveur
 
 *****
 
@@ -97,7 +100,8 @@
 
 // Hash //
 
-        Transformation irréversible d'un mot de passe
+        Transformation d'une donnée en une empreinte de taille fixe à l'aide d'une fonction de hachage
+        Cette transformation est conçue pour être irréversible
 
 *****
 
@@ -187,7 +191,7 @@
 // Framework //
 
         Ensemble d'outils facilitant le développement
-               - Springboot, React
+               - Spring Boot, React
 
 *****
 
@@ -262,7 +266,8 @@
 
 // Objet // 
 
-        Élément créé à partir d'une classe Un objet possède des attributs et peut utiliser les méthodes définies dans sa classe 
+        Élément créé à partir d'une classe 
+        Un objet possède des attributs et peut utiliser les méthodes définies dans sa classe 
         
 *****
 
@@ -280,7 +285,8 @@
 
 // Constructeur // 
 
-        Méthode spéciale appelée lors de la création d'un objet Il permet d'initialiser les attributs de l'objet
+        Méthode spéciale appelée lors de la création d'un objet 
+        Il permet d'initialiser les attributs de l'objet
 
 *****
 
@@ -301,9 +307,11 @@
         Résultat renvoyé par une méthode grâce au mot-clé return
 
 ***** 
+
 // Interface // 
 
-        Contrat définissant les méthodes qu'une classe doit implémenter Une interface décrit ce qui doit être fait, sans forcément préciser comment
+        Contrat définissant les méthodes qu'une classe doit implémenter 
+        Une interface décrit ce qui doit être fait, sans forcément préciser comment
 
 ***** 
 
@@ -318,6 +326,12 @@
         Mécanisme permettant à une classe de récupérer les attributs et méthodes d'une autre classe 
 
 ***** 
+
+// Cardinalité // 
+
+        Nombre minimum et maximum de relations possibles entre deux entités
+
+*****
 
 // Encapsulation // 
 
@@ -345,7 +359,7 @@
 
  // Compilation // 
 
-        Transformation du code source en code compréhensible et exécutable par la machine ou la JVM 
+        Transformation du code source Java en bytecode pouvant être exécuté par la JVM
 
  ***** 
  
@@ -354,6 +368,18 @@
         Programme chargé de vérifier et de compiler le code source 
 
  ***** 
+
+ // Test unitaire // 
+ 
+        Test vérifiant une petite partie du code de manière isolée 
+        
+***** 
+
+// Test d'intégration // 
+
+        Test vérifiant que plusieurs composants de l'application fonctionnent correctement ensemble
+
+*****
 
  // JVM (Java Virtual Machine) // 
  
@@ -368,13 +394,40 @@
 
  // JRE (Java Runtime Environment) // 
  
-        Environnement nécessaire pour exécuter une application Java 
+        Environnement contenant les éléments nécessaires à l'exécution d'une application Java
 
  ***** 
 
  // Débogage (Debug) // 
 
          Processus permettant de rechercher et corriger les erreurs dans un programme
+
+*****
+
+// DAO (Data Access Object) // 
+
+        Objet chargé de gérer l'accès aux données Le pattern Repository est une approche proche du DAO
+
+*****
+
+// Service // 
+
+        Couche contenant la logique métier de l'application 
+        Le Service est généralement appelé par le Controller et utilise le Repository 
+        
+***** 
+
+// Repository // 
+
+        Couche chargée de communiquer avec la base de données 
+        Il permet notamment de rechercher, enregistrer, modifier et supprimer des données
+
+*****
+
+// Logique métier // 
+
+        Ensemble des règles et traitements propres au fonctionnement de l'application 
+        Exemple : vérifier qu'un utilisateur possède le droit de modifier un ensemble
 
 *****
 
