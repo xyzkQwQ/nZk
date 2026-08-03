@@ -11,28 +11,28 @@
 
         Partie utilitaire de l'application
         Elle contient la logique métier, les traitements et l'accès à la base de données
-                Spring Boot
+               - Spring Boot
 
 *****
 
 // Frontend //
 
         Partie graphique de l'application utilisée par les utilisateurs
-                React, HTML, CSS, JavaScript
+               - React, HTML, CSS, JavaScript
 
 *****
 
 // Base de données (Database) //
 
         Endroit où les données sont stockées de manière permanente      
-                PostgreSQL, MySQL
+               - PostgreSQL, MySQL
 
 *****
 
 // ORM (Object Relational Mapping) //
 
         Technique permettant de manipuler une base de données avec des objets Java au lieu d'écrire directement du SQL
-                Hibernate, JPA
+               - Hibernate, JPA
 
 *****
 
@@ -122,7 +122,7 @@
 // Dependency //
 
         Bibliothèque externe ajoutée au projet
-                Spring Web, Spring Data JPA
+               - Spring Web, Spring Data JPA
 
 *****
 
@@ -155,7 +155,7 @@
         Famille de bases de données qui ne stockent pas forcément les données sous forme de tables
         Elles sont souvent utilisées lorsque les données sont très volumineuses ou peu structurées
         Contrairement au SQL, les données peuvent être stockées sous forme de documents, de clés/valeurs, de graphes ou de colonnes
-                MongoDB
+               - MongoDB
 
 *****
 
@@ -187,7 +187,7 @@
 // Framework //
 
         Ensemble d'outils facilitant le développement
-                Springboot, React
+               - Springboot, React
 
 *****
 
@@ -240,7 +240,7 @@
 // Classe //
 
         Modèle servant à créer des objets
-        Une classe définit les attributs (les données) et les méthodes (les comportements).
+        Une classe définit les attributs (les données) et les méthodes (les comportements)
 
 *****
 
