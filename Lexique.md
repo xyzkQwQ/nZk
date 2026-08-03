@@ -257,3 +257,147 @@
         Détermine la nature des données qu'une variable peut contenir
         Types primitifs : int - double - float - boolean - char - byte - short - long
         Types objets : String - User - List<User> - LocalDate
+
+*****
+
+// Objet // 
+
+        Élément créé à partir d'une classe Un objet possède des attributs et peut utiliser les méthodes définies dans sa classe 
+        
+*****
+
+// Instance // 
+
+        Objet concret créé à partir d'une classe
+
+***** 
+
+// Instanciation // 
+
+        Action de créer un objet à partir d'une classe
+
+***** 
+
+// Constructeur // 
+
+        Méthode spéciale appelée lors de la création d'un objet Il permet d'initialiser les attributs de l'objet
+
+*****
+
+// Paramètre // 
+
+        Variable déclarée dans la définition d'une méthode
+
+*****
+
+// Argument // 
+
+        Valeur transmise à une méthode lors de son appel
+
+*****
+
+// Valeur de retour // 
+
+        Résultat renvoyé par une méthode grâce au mot-clé return
+
+***** 
+// Interface // 
+
+        Contrat définissant les méthodes qu'une classe doit implémenter Une interface décrit ce qui doit être fait, sans forcément préciser comment
+
+***** 
+
+// Implémentation // 
+
+        Code concret permettant de réaliser le comportement défini par une interface 
+
+ ***** 
+
+// Héritage //
+
+        Mécanisme permettant à une classe de récupérer les attributs et méthodes d'une autre classe 
+
+***** 
+
+// Encapsulation // 
+
+        Principe consistant à protéger les données d'un objet et à contrôler leur accès
+
+***** 
+
+// Polymorphisme // 
+
+        Capacité à utiliser plusieurs objets différents à travers un même type commun 
+
+***** 
+
+// Abstraction // 
+
+        Principe consistant à masquer les détails complexes pour ne montrer que les éléments nécessaires
+
+***** 
+
+// Enum // 
+
+        Type contenant une liste limitée de valeurs possibles
+
+ ***** 
+
+ // Compilation // 
+
+        Transformation du code source en code compréhensible et exécutable par la machine ou la JVM 
+
+ ***** 
+ 
+ // Compilateur // 
+
+        Programme chargé de vérifier et de compiler le code source 
+
+ ***** 
+
+ // JVM (Java Virtual Machine) // 
+ 
+        Environnement permettant d'exécuter du code Java sur différents systèmes d'exploitation 
+
+ ***** 
+ // JDK (Java Development Kit) // 
+ 
+        Ensemble des outils nécessaires pour développer et compiler des applications Java
+
+ ***** 
+
+ // JRE (Java Runtime Environment) // 
+ 
+        Environnement nécessaire pour exécuter une application Java 
+
+ ***** 
+
+ // Débogage (Debug) // 
+
+         Processus permettant de rechercher et corriger les erreurs dans un programme
+
+*****
+
+// Relation One-to-One // 
+
+        Relation dans laquelle un élément correspond à un seul autre élément 
+        
+***** 
+// Relation One-to-Many // 
+
+        Relation dans laquelle un élément peut être associé à plusieurs autres éléments 
+        
+***** 
+// Relation Many-to-One // 
+
+        Relation dans laquelle plusieurs éléments peuvent être associés à un seul élément 
+
+***** 
+// Relation Many-to-Many // 
+
+        Relation dans laquelle plusieurs éléments peuvent être associés à plusieurs autres éléments 
+
+***** 
+// Table //    
+
+        Structure d'une base de données relationnelle contenant des lignes et des colonnes
